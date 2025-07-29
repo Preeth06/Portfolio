@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preethika's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch">
+    <input type="checkbox" id="toggleMode">
+    <span class="slider round"></span>
+  </label>
+        </div>
+        <p>Welcome To My Portfolio</p>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>
+                <span class="small-text">Hi I'm</span> <span class="big-text">Preethika J</span>
+            </h1>
+
+            <h3>a <span class="text"></span></h3>
+            <div class="social-media">
+                <a href="https://github.com/Preeth06" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/preethika-j" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> preethika06.2005@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8667507092</p>
+                </div>
+            </div>
+
+            <a href="https://preethikaresume.netlify.app" class="btn">View Resume</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I’m an IT student with a passion for crafting creative web solutions. I enjoy transforming creative ideas into responsive, clean, and accessible websites using HTML, CSS, and JavaScript. My enthusiasm lies in developing intuitive, user-focused
+                applications that not only perform well but also bring value and enjoyment to users.</p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Technical Skills</h3>
+                <p>Python, HTML, CSS, JavaScript</p>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-user-voice'></i>
+                <h3>Soft Skills</h3>
+                <p>Strategic Planning, Collaborative, Creative Thinking</p>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-edit'></i>
+                <h3>Editors</h3>
+                <p>VS Code, Eclipse</p>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-wrench'></i>
+                <h3>Tools</h3>
+                <p>GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <div class="projects-layer">
+                    <h4>Tic Tac Toe Game</h4>
+                    <p>Developed an interactive Tic Tac Toe web game using HTML, CSS, and JavaScript, featuring real-time gameplay logic and a responsive user interface.</p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="projects-layer">
+                    <h4>Weather App</h4>
+                    <p>Developed a responsive Weather App using HTML, CSS, and JavaScript that fetches real-time weather data based on user input using a public API.</p>
+
+                </div>
+            </div>
+            <div class="projects-box">
+                <div class="projects-layer">
+                    <h4>Food Website</h4>
+                    <p>Developed a responsive and user-friendly online food delivery website, YO CHILL!, featuring category-based menus, ordering, and seamless navigation.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certifications" id="certifications">
+        <h2 class="heading">Certifications</h2>
+
+        <div class="certifications-container">
+            <div class="certifications-box">
+                <ul class="certifications-list">
+                    <li>
+                        <strong>Infosys</strong>
+                        <p>Python, JavaScript Front-end Development, Artificial Intelligence, Deep Learning</p>
+                    </li>
+                    <li>
+                        <strong>SAWIT.AI Learnathon Program</strong>
+                        <p>Learned the basics of Generative AI and its applications in modern technologies.</p>
+                    </li>
+                    <li>
+                        <strong>Prodigy Infotech</strong>
+                        <p>Web Development Internship</p>
+                    </li>
+                    <li>
+                        <strong>Sololearn</strong>
+                        <p>Coding for Data</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>ME!</span></h2>
+
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="email" name="Email Address" placeholder="Your Email">
+                <input type="text" name="Email Subject" placeholder="Subject">
+            </div>
+            <textarea name="Your Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; Preethika | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
